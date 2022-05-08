@@ -89,24 +89,4 @@ nvm install 16.13.0
 
 ## Diagrama de funcionamiento
 
-classDiagram
-      Animal <|-- Duck
-      Animal <|-- Fish
-      Animal <|-- Zebra
-      Animal : +int age
-      Animal : +String gender
-      Animal: +isMammal()
-      Animal: +mate()
-      class Duck{
-          +String beakColor
-          +swim()
-          +quack()
-      }
-      class Fish{
-          -int sizeInFeet
-          -canEat()
-      }
-      class Zebra{
-          +bool is_wild
-          +run()
-      }
+[![](https://mermaid.ink/img/pako:eNqtVs1u2zAMfhVBO9RG4uRubMGCrYcB7TC0KLCDL6zFJkJtyZDkrkObp9oj7MUm_8iWHTtZhxkIEJOfSJHfR0svNJUMaUzTDLT-zGGnIE8Esc-NLA0q8v41isiWscvnIpMK1SeZF1KgMMeoN0D0FddmGhdFrxtyDVyQgTkmi29g9kdGyDho32htAnIcmVKXi3D7R5kgbAB13ZP1vTQAFyPaFDZ9TBK6BsYSOvZWOeOEWl-EbaiEkjGq20bs9pHQ1bqz6rW3k4SGbvniq8zvFUabpyi3fGUxcTlWfa0WdqdRVQZyjCtbV4e95pr__iUmoDnXmkvhkB_TjKePHxKq4Qn7zR25Bf449i4YGAj6QvwYntlbG4Rt1w4-Q2-gx9Wxjvk8Tw4UMTTAM_0vXM0T1Tc1LZWy4Mu_pGsMP8_aeMUceRaM5hR9ZWGpwvMM7rBLFnDW24cJvAXDwJ4jl6UwyJxlku_hh-I86fos4_r_jWU_GWi2qeGetF22JeGC4XPYbyv4YotWhczAWJ5CEm3mhzRo5FSDTikpcEqaRB5FvW40Mgke6WeC_W2Wdez4k32-BxPET1Bfffs7ohf3UhptFBSdpSGte00VWnltiyKwv7AqNlA1IlzVeYKLd1AUF0OR1edLfdLYRYOToCi63E2YKOPikRhZqSyhMbmCUqT77_MgT2hxr-N5fH2cxGS7U7gD1a3oCrTxrCIJwwcoM6vQWs92oa3KqepApmbnFtUTT_FlRN6QzcEMN70MKs7H82txSzJ0NBPfB2h7O0rftHnmbjCJnb9tnAw9dafYG1PYMc6lGGLbAH7XeqgnPtB4d3PVve8RmMflAp651Ku2a30XnL956JLmqHLgzN6z6tgJNXu080grGhmox4rHg8W1n0rGjVQ0foBM45JCaeTtT5HS2KgSHai9q7Wowx-s-DMy)](https://mermaid.live/edit#pako:eNqtVs1u2zAMfhVBO9RG4uRubMGCrYcB7TC0KLCDL6zFJkJtyZDkrkObp9oj7MUm_8iWHTtZhxkIEJOfSJHfR0svNJUMaUzTDLT-zGGnIE8Esc-NLA0q8v41isiWscvnIpMK1SeZF1KgMMeoN0D0FddmGhdFrxtyDVyQgTkmi29g9kdGyDho32htAnIcmVKXi3D7R5kgbAB13ZP1vTQAFyPaFDZ9TBK6BsYSOvZWOeOEWl-EbaiEkjGq20bs9pHQ1bqz6rW3k4SGbvniq8zvFUabpyi3fGUxcTlWfa0WdqdRVQZyjCtbV4e95pr__iUmoDnXmkvhkB_TjKePHxKq4Qn7zR25Bf449i4YGAj6QvwYntlbG4Rt1w4-Q2-gx9Wxjvk8Tw4UMTTAM_0vXM0T1Tc1LZWy4Mu_pGsMP8_aeMUceRaM5hR9ZWGpwvMM7rBLFnDW24cJvAXDwJ4jl6UwyJxlku_hh-I86fos4_r_jWU_GWi2qeGetF22JeGC4XPYbyv4YotWhczAWJ5CEm3mhzRo5FSDTikpcEqaRB5FvW40Mgke6WeC_W2Wdez4k32-BxPET1Bfffs7ohf3UhptFBSdpSGte00VWnltiyKwv7AqNlA1IlzVeYKLd1AUF0OR1edLfdLYRYOToCi63E2YKOPikRhZqSyhMbmCUqT77_MgT2hxr-N5fH2cxGS7U7gD1a3oCrTxrCIJwwcoM6vQWs92oa3KqepApmbnFtUTT_FlRN6QzcEMN70MKs7H82txSzJ0NBPfB2h7O0rftHnmbjCJnb9tnAw9dafYG1PYMc6lGGLbAH7XeqgnPtB4d3PVve8RmMflAp651Ku2a30XnL956JLmqHLgzN6z6tgJNXu080grGhmox4rHg8W1n0rGjVQ0foBM45JCaeTtT5HS2KgSHai9q7Wowx-s-DMy)
