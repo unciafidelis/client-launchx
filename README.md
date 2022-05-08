@@ -78,7 +78,7 @@ e) Corrobora que `nvm` funciona (este comando debe retornar "nvm" en terminal)
 command -v nvm
 ```
 
-Para más información consulta [nvm-heynode tutorial]{https://heynode.com/tutorial/install-nodejs-locally-nvm/}
+Para más información consulta [nvm-heynode tutorial](https://heynode.com/tutorial/install-nodejs-locally-nvm/)
 
 
 2. Instala la versión `16.13.0` de node con:
