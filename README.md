@@ -28,8 +28,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 Al contar con la versión `18` de Node tuve un problema en la instalación de este repo.
 
-`
-Error: error:0308010C:digital envelope routines::unsupported
+<p style="color:red">
+    Error: error:0308010C:digital envelope routines::unsupported
     at new Hash (node:internal/crypto/hash:67:19)
     at Object.createHash (node:crypto:135:10)
     at module.exports (/Users/alejandromorgan/Desktop/client-launchx/node_modules/webpack/lib/util/createHash.js:135:53)
@@ -49,7 +49,7 @@ Error: error:0308010C:digital envelope routines::unsupported
   reason: 'unsupported',
   code: 'ERR_OSSL_EVP_UNSUPPORTED'
 }
-`
+</p>
 
 Se resuelve utilizando una versión anterior de node, la `v16.13.0` siguiendo estos pasos:
 
